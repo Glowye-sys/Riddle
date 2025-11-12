@@ -177,7 +177,7 @@
             if (e.key === 'Enter') {
                 const userAnswer = this.value.trim().toLowerCase();
                 if (correctAnswers.includes(userAnswer)) {
-                    feedback.textContent = '✨ Correct! Well done, riddle solver! ✨';
+                    feedback.textContent = 'Correct! Well done, riddle solver!';
                     feedback.className = 'feedback correct';
                     showQRCode();
                 }
@@ -192,4 +192,5 @@
         }
     </script>
 </body>
+
 </html>
